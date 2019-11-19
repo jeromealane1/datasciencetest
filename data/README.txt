@@ -10,7 +10,7 @@ I have inculded a script that should install the libraries you need (excluding p
 
 You should be able to run this on windows but you will have to install the libraries on your own.
 
-after everything is installed, while you are in the working directory just type python data.py which will run the first question.
-You will need to uncomment the other questions in order to run them.
+After everything is installed, while you are in the working directory just type python data.py which will run the first question.
+You will need to uncomment the other questions at the bottom in order to run them.
 
 The answers and descriptions are in the folders named questionX.
