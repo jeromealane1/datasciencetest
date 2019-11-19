@@ -39,6 +39,6 @@ You will need to uncomment the other questions at the bottom in order to run the
 
 The answers and descriptions are in the folders named questionX.
 
-Email me if you have issues I can walk you through everything:
-ln.jrm.1988@gmail.com
+Email me if you have issues I can walk you through everything
+
 
