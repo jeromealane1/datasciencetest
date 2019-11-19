@@ -4,14 +4,14 @@ In order to run this code you need:
 
 To be on a Unix system linux mint(debian based should work) is the one I used:
 
-java 8 (you might need to install this)
+Java 8 (you might need to install this)
 Python 2.7
 pyspark
 pandas
 tk
 matplotlib.
 
-I have inculded a script that should install the libraries you need (excluding python and PIP). You will need to install python and PIP on your own and these need to be installed first before you run the script. (I didn't include it because the installation can be different for your OS) The script should work on linux mint without issues, just make sure to run as sudo. Once you install python and pip you can run the script with the command: ./setup.sh
+I have inculded a script that should install the libraries you need (excluding Java8 python and PIP). You will need to install python and PIP on your own and these need to be installed first before you run the script. (I didn't include it because the installation can be different for your OS) The script should work on linux mint without issues, just make sure to run as sudo. Once you install python and pip you can run the script with the command: ./setup.sh
 
 If the script does not work you will need to do these steps in order:
 Update your package manager: The following steps might not work if its not updated
