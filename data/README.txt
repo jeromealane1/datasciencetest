@@ -23,16 +23,16 @@ install -> apt-get install openjdk-8-jdk-headless -qq
 
 switch version -> https://aboullaite.me/switching-between-java-versions-on-ubuntu-linux/
 Install python-tk: just get the latest version. I believe this is for graphics
-Install tk: if the above does not work get this ? sudo apt install tk
+Install tk: if the above does not work get this -> sudo apt install tk
 Install Pyspark: python2 -m pip install pyspark
 Install Pandas: python2 -m pip install pandas
 Install matplotlib: python2 -m pip install matplotlib
 
 To run:
-1. put the BeerDataScienceProject.csv into the directory where you downloaded the project files
+1. put the BeerDataScienceProject.csv into the directory where you downloaded the project files: /home/<username>/<project>
 2. Next use the command python2 data.py
 
-You should be able to run this on windows but you will have to install the libraries on your own as well.
+You should be able to run this on windows(or other unix systems) but you will have to install the libraries on your own as well.
 
 After everything is installed, while you are in the working directory just type python2 data.py which will run the first question.
 You will need to uncomment the other questions at the bottom in order to run them.
