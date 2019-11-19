@@ -1,5 +1,7 @@
 #!/bin/sh
 
+python -m pip install -U pip
+sudo python -m pip install -U matplotlib
 sudo apt install python-tk
-pip install pyspark --user
-python -m pip install  pandas --user
+sudo pip install pyspark --user
+sudo python -m pip install  pandas --user

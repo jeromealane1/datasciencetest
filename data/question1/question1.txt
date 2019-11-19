@@ -1,0 +1,15 @@
+I would say that the top 3 breweries with the "strongest" beer are 22698,11551 and 21983 grouped by brewerID. I came to this conclusion by judging them by the highest average of their beers (ABV value) . This value determines how much alcohol is in each beer. 
+
+
+Looking at the description of the table, there is also a beer that has a value of 57.7(abv) but I decided to choose the brewery that has the most overall strongest beers. Here is a sample of my table analysis:
+
+|summary|          beer_ABV|       beer_beerId|     beer_brewerId|           beer_name|beer_style| review_appearance|    review_palette|    review_overall|      review_taste|review_profileName|      review_aroma|         review_text|         review_time|
++-------+------------------+------------------+------------------+--------------------+----------+------------------+------------------+------------------+------------------+------------------+------------------+--------------------+--------------------+
+|  count|            508590|            528870|            528870|              528870|    528870|            528870|            528870|            528870|            528870|            528755|            528870|              528751|              528864|
+|   mean|7.0174415934260255| 22098.46601622327|2598.4234291981015|  1253.0425531914893|      null|3.8645224724412426|3.7589256338986896|3.8331971940174334|3.7659925879705787|         465103.88|3.8173501994819143|                null|1.2255827073625276E9|
+| stddev|  2.20445995677153|22158.284352496015| 5281.805349793615|    689.129024538951|      null|0.6040104277079585|0.6853348637618429|0.7099617749157909|0.6690176237234902| 534316.0908714508|0.7189030161830336|                null| 7.629805283210553E7|
+|    min|              0.01|                 3|                 1|  """100"" Pale Ale"|   Altbier|               0.0|               1.0|               0.0|               1.0|          0110x011|               1.0|Appearance: slig...| "" What is wrong...|
+|    max|              57.7|             77310|             27980|��ambereck� Kanec...|   Witbier|               5.0|               5.0|               5.0|               5.0|            zyzygy|               5.0|~~ upon some rese...|zesty finish. Mak...|
++-------+------------------+------------------+------------------+--------------------+----------+------------------+------------------+------------------+------------------+------------------+------------------+--------------------+--------------------+
+
+

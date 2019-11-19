@@ -1,0 +1,12 @@
+Jan 20, 2006 7:20 PM is the date with the highest raiting for beers.
+
+In order to come to this conclusion I looked for the max raitings closest to a perfect 5 star raiting. I used all the review factors such as taste,aroma,appearance,pallet and overall raiting.Then I aggregated all of the reviews by review_time (pulling their max column value)then looked at the tail(end with the highest numbers). The answer I got was 1137810027 which I converted to a human readable timestamp. Below shows the results of the query. I
+
+
+
+       review_time  max(review_taste)  max(review_aroma)  max(review_appearance)  max(review_palette)  max(review_overall)
+146335  1137810027                4.5                5.0                     4.5                  5.0                  5.0
+217424  1131762098                4.5                4.5                     4.0                  4.0                  5.0
+217417  1268155158                5.0                5.0                     4.5                  4.5                  5.0
+258094  1218847611                4.5                4.5                     4.5                  4.0                  5.0
+316066  1227671196                4.5                5.0                     4.0                  4.0                  5.0

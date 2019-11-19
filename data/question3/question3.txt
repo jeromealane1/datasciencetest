@@ -1,0 +1,11 @@
+It seems that the aroma is the most important factor in decideing the best beer. I came to this conclusion by comparring the correlation between all the other review factors(columns) with the review overall score. pandas corr() function was used to save time. I decided to go with the pearson correlation method.
+
+The correlation matrix below shows the results. If im reading it correctly then aroma should be the best as it has the closets correlation value .78 to the overall score.
+
+
+                   review_taste  review_aroma  review_appearance  review_palette  review_overall
+review_taste           1.000000      0.725273           0.554775        0.604271        0.692454
+review_aroma           0.725273      1.000000           0.534244        0.706156        0.783002
+review_appearance      0.554775      0.534244           1.000000        0.547691        0.486687
+review_palette         0.604271      0.706156           0.547691        1.000000        0.601971
+review_overall         0.692454      0.783002           0.486687        0.601971        1.000000
