@@ -1,4 +1,4 @@
-I honestly should have made a docker container for this?
+I honestly should have made a docker container for this...
 
 In order to run this code you need: 
 
